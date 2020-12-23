@@ -1,0 +1,15 @@
+server:
+  port: 8082
+#mqtt≈‰÷√
+mqtt:
+  url: 127.0.0.1
+  port: 8083
+  apiPort: 18083
+  client:
+    id: server
+  server:
+    id: serverId
+  default:
+    topic: topic
+  user: emqx_u
+  pwd: emqx_p
